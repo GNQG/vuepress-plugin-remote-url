@@ -1,0 +1,24 @@
+{
+  "name": "vuepress-plugin-remote-url",
+  "version": "0.1.0",
+  "description": "A VuePress plugin to handle urls of remote repository",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "GNQG",
+    "email": "my.t.gnq+dev@gmail.com"
+  },
+  "homepage": "https://github.com/GNQG/vuepress-plugin-remote-url",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/GNQG/vuepress-plugin-remote-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GNQG/vuepress-plugin-remote-url/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "git-repo-info": "^2.1.0",
+    "git-url-parse": "^11.1.2"
+  }
+}
