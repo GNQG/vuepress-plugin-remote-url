@@ -8,6 +8,14 @@
     "name": "GNQG",
     "email": "my.t.gnq+dev@gmail.com"
   },
+  "keywords": [
+    "vuepress",
+    "vuepress-plugin",
+    "plugin",
+    "repository",
+    "git",
+    "mercurial"
+  ],
   "homepage": "https://github.com/GNQG/vuepress-plugin-remote-url",
   "repository": {
     "type": "git",
