@@ -1,5 +1,7 @@
 # vuepress-plugin-remote-url
 
+[![npm version](https://badge.fury.io/js/vuepress-plugin-remote-url.svg)](https://badge.fury.io/js/vuepress-plugin-remote-url)
+
 A [VuePress](https://github.com/vuejs/vuepress) plugin to handle urls of remote repository.
 
 This plugin is for [VuePress 1.x](https://v1.vuepress.vuejs.org/).
