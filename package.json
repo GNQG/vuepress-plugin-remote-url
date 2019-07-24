@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-remote-url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A VuePress plugin to handle urls of remote repository",
   "license": "MIT",
   "main": "index.js",
