@@ -24,9 +24,11 @@
   "bugs": {
     "url": "https://github.com/GNQG/vuepress-plugin-remote-url/issues"
   },
-  "devDependencies": {
-    "eslint": "^6.1.0",
+  "dependencies": {
     "git-repo-info": "^2.1.0",
     "git-url-parse": "^11.1.2"
+  },
+  "devDependencies": {
+      "eslint": "^6.1.0"
   }
 }
