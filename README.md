@@ -20,7 +20,7 @@ This plugin is for [VuePress 1.x](https://v1.vuepress.vuejs.org/).
 
 ```javascript
 // .vuepress/config.js
-module.exports = (option, ctx) => {
+module.exports = {
     plugins: [
         "remote-url",
         // ...
