@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "commonjs": true,
+        "es6": true
+    },
+    "plugins": ["prettier"],
+    "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+    "rules": {
+        "no-console": 0,
+        "no-unused-vars": [2, { "argsIgnorePattern": "^_" }],
+        "prettier/prettier": 1
+    }
+}

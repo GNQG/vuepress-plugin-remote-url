@@ -1,1 +1,4 @@
+/.vscode/
+/.editorconfig
+/.eslintrc
 /yarn.lock

@@ -1,0 +1,9 @@
+{
+    "eslint.autoFixOnSave": true,
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true
+    }
+}

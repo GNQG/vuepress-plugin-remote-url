@@ -45,7 +45,7 @@ const getUrlGenerator = ({ vcs, service, remote = "origin", https = true }) => {
         github: ({ urlElement, filePath }) => {
             const baseUrl = `${urlElement.protocol}://${urlElement.host}`;
             const proc = tag => {
-                urlPath = encodeURI(
+                const urlPath = encodeURI(
                     url.format(
                         path.join(
                             "/",
@@ -72,7 +72,7 @@ const getUrlGenerator = ({ vcs, service, remote = "origin", https = true }) => {
         bitbucket: ({ urlElement, filePath }) => {
             const baseUrl = `${urlElement.protocol}://${urlElement.host}`;
             const proc = tag => {
-                urlPath = encodeURI(
+                const urlPath = encodeURI(
                     url.format(
                         path.join(
                             "/",
@@ -192,7 +192,8 @@ module.exports = (option, _ctx) => {
     })(option.vcs);
 
     const genUrl = getUrlGenerator({
-        ...opt,
+        repoRootDir: opt.repoRootDir,
+        vcs: opt.vcs,
         service: option.service,
         remote: option.remote,
         https: option.https
